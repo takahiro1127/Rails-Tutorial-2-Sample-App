@@ -57,4 +57,8 @@ def store_location
   session[:fowarding_url] = request.original_url if request.get?
 end
 
+def user_have_admin
+  user
+end
+
 end
